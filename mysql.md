@@ -26,7 +26,7 @@ sudo mysql_secure_installation
 
 And when I choose my password and security validation level, it gave me the following error:
 
-![mysql-error](images/mysql-error.jpg)
+![mysql-error](https://user-images.githubusercontent.com/30899788/230740973-aa79f71e-3341-4226-b102-321da43e375d.jpg)
 
 ## How to solve Failed! Error: SET PASSWORD has no significance for user ‘root@localhost’ as the authentication
 
@@ -52,7 +52,7 @@ Once done, flush the privileges in MySQL and exit by using the given command:
 flush privileges;
 exit;
 ```
-![root-user-pwd](images/root-pwd.jpg)
+![root-user-pwd](https://user-images.githubusercontent.com/30899788/230741022-96313471-6e74-4a59-8191-9a2db49f81a6.jpg)
 
 Now, start the secure script again:
 
@@ -60,7 +60,7 @@ Now, start the secure script again:
 sudo mysql_secure_installation
 ```
 
-![mysql-error](images/secure-install.jpg)
+![mysql-error](https://user-images.githubusercontent.com/30899788/230741065-7656db8d-09e2-45b0-a4a8-59328ea1d412.jpg)
 
 That's it. You have successfully secured MySQL!
 
