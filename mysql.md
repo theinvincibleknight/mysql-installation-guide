@@ -167,7 +167,7 @@ If the command runs successfully, it won’t produce any output. If any errors o
 
 To check if the import was successful, log in to the MySQL shell and inspect the data. Selecting the new database with command:
 ```
-mysql> USE new_database
+mysql> USE new_database;
 ```
  and then to see tables inside selected database:
  ```
