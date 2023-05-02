@@ -171,7 +171,7 @@ mysql> USE new_database
 ```
  and then to see tables inside selected database:
  ```
- mysql> use SHOW TABLES; 
+ mysql> SHOW TABLES; 
  ```
 You should be able to see some imported database tables here.
 
